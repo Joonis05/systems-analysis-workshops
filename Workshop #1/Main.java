@@ -15,7 +15,7 @@ public class Main {
     private static final double ENTROPY_THRESHOLD = 1.93;
 
     public static void main(String[] args) {
-        int n = 20000;
+        int n = 200000;
         int m = 100;
         int numThreads = 4;
 
