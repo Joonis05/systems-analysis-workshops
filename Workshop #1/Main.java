@@ -1,5 +1,10 @@
 import java.io.*;
 import java.util.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Main {
     private static final String PATHDB = "db.txt";
@@ -7,7 +12,7 @@ public class Main {
     private static final String BASES = "ACGT";
     private static final Random RANDOM = new Random();
     private static final String MOTIF = "AGCTATC";
-    private static final double ENTROPY_THRESHOLD = 1.8;
+    private static final double ENTROPY_THRESHOLD = 1.93;
 
     public static void main(String[] args) {
         int n = 20000;
